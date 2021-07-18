@@ -1,7 +1,7 @@
 # cctv-backend
 backend for cctv
 
-- 녹화파일 경로 : ~/records/
+- 녹화파일 경로 : $HOME/records/
 - 폴더이름 : 연-월 (ex: 2021-07)
 - 파일이름 : 연-월-일-시-분-초 (ex: 2021-07-18-22-16-52.mkv)
 
