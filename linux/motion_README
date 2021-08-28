@@ -1,0 +1,14 @@
+# motion 설치
+sudo apt install motion -y
+
+# 녹화파일 위치
+/home/motion_records
+
+# motion파일 위치, config 위치 : config에서 데몬모드 콘솔모드 선택가능
+/etc/motion
+
+# 모션실행
+sudo motion
+
+# 매니저실행
+nohup python3 motion_manager.py &
