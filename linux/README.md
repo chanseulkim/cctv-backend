@@ -18,3 +18,12 @@ sudo motion
 # 하루가 지난 파일은 디렉토리로 만들어서 옮기고
 # 2주가 지난 파일은 삭제합니다.
 nohup python3 motion_manager.py &
+
+# 스케줄링
+# crontab -e 로 수정, 아래 내용 추가 (매일 00시 1분 실행)
+# crontab -l 로 스케줄 내용 확인
+1 00 * * * python3 /home/chanseulkim/momo/linux/motion_manager.py
+
+# cron 서비스 실행, 확인
+sudo service cron start
+service cron status

@@ -78,12 +78,13 @@ def Work():
 
 last_date = date.today()
 
+# 단발성
+Work()
+
+# 자체 스케줄링
 while True :
-    #TODO: 00:00 분 기준으로 실행하도록 변경하기 하루단위
-    #지금은 매번 체크중.
-    Work()
-    time.sleep(60)
-    continue
+    break
     if last_date == (date.today() - timedelta(days=1)):
         Work()
         last_date = (date.today() - timedelta(days=1))
+        time.sleep(60)
