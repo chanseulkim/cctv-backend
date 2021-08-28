@@ -3,7 +3,7 @@
 sudo apt install motion -y
 
 # motion 설치 후 setconfig.py를 실행 해주세요
-# 이 스크립트느 녹화 위치와 녹화파일을 아래와 같이 설정 해줍니다.
+# 이 스크립트는 녹화 위치와 녹화파일을 아래와 같이 설정 해줍니다.
 python3 setconfig.py
 # 녹화파일 위치 : /home/motion_records
 # 녹화파일 포맷 (연월일시분초) : %Y-%m-%d-%H-%M-%S.mkv
