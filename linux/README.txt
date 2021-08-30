@@ -17,6 +17,9 @@ sudo motion
 # 매니저실행 (motion_manager.py)
 # 하루가 지난 파일은 디렉토리로 만들어서 옮기고
 # 2주가 지난 파일은 삭제합니다.
+# 
+# 오늘 녹화중인 녹화파일은 기본 위치에 생성 (예: "/home/motion_records/2021-08-12-15-30")
+# 오늘 이전 녹화파일 위치는 디렉토리에 옮김 (예: "/home/motion_records/2021-08-11/2021-08-11-10-15")
 nohup python3 motion_manager.py &
 
 # 스케줄링
